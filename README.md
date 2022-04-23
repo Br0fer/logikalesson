@@ -1,2 +1,2 @@
 # logikalesson
-This is the easiest
+Here is the easiest game just for lesson =)
