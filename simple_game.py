@@ -13,4 +13,15 @@ image = pygame.Surface((32, 32))
 image.fill(WHITE)
 
 while True:
-  pass
+  clock.tick(FPS)
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      quit()
+      
+      elif event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_w:
+          rect.move_ip(0, -2)
+  
+  screen.fill(BLACK)
+  screen.blit(image, rect)
+  pygame.display.update()
