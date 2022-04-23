@@ -9,4 +9,8 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
 rect = pygame.Rect((0, 0), (32, 32))
-image = pygame.Surface
+image = pygame.Surface((32, 32))
+image.fill(WHITE)
+
+while True:
+  pass
